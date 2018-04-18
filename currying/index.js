@@ -1,6 +1,5 @@
 
 /* каррирующая функция 
-http://prgssr.ru/development/vvedenie-v-karrirovanie-v-javascript.html
 берет список аргументов для этой функции и
 использует их для возврата каррированной версии оригинальной функции uncurried
 */
