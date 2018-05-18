@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "express": "^4.16.3",
     "xero-node": "^3.0.3"
   },
   "devDependencies": {},

@@ -1,13 +1,27 @@
 const XeroClient = require('xero-node').AccountingAPIClient;
 const config = require('./config.json');
  
+
+
 (async () => {
  
     let xero = new XeroClient(config);
  
-    // Create request token and get an authorisation URL
-    const requestToken = await xero.oauth1Client.getRequestToken();
-    console.log('Received Request Token:', requestToken);
+    //console.log(xero);
+
+
+    const result = await xero.invoices.get();
+    console.log(result);
+
+    //console.log(result.Invoices.length);
+
+    // console.log('Number of invoices:', result.Invoices.length);
+
+
+
+    // // Create request token and get an authorisation URL
+    // const requestToken = await xero.oauth1Client.getRequestToken();
+    // console.log('Received Request Token:', requestToken);
  
     // authUrl = xero.oauth1Client.buildAuthoriseUrl(requestToken);
     // console.log('Authorisation URL:', authUrl);
@@ -51,4 +65,4 @@ const config = require('./config.json');
     // const invoices = await xero2.invoices.get();
     // console.log('Number of invoices:', invoices.Invoices.length);
  
-})();
+})().catch(console.log);

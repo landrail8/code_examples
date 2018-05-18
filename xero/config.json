@@ -3,5 +3,5 @@
   "consumerKey": "PBRSNO9NID6JYTR0JKWKULFHEC3SQB",
   "consumerSecret": "OHAJAR3OLU2QHVPZ0BXV7JY5PIH2KJ",
   "callbackUrl": null,
-  "privateKeyPath": "C:\\keys\\your_private_key.pem"
+  "privateKeyPath": "/home/alex/projects/learning/code_examples/xero/private_key.pem"
 }
