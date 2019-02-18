@@ -8,3 +8,5 @@ http://prgssr.ru/development/vvedenie-v-karrirovanie-v-javascript.html
 
 XMLHttpRequest - запросы в JS
 https://developer.mozilla.org/ru/docs/Web/API/XMLHttpRequest/onreadystatechange
+
+recursive-stringify - убирает лишнее экранирование массивов и объектов, которое возникает при работе типового JSON.Stringify()
